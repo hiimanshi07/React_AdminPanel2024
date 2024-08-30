@@ -1,0 +1,9 @@
+.sidebar h5 {
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.1s ease; /* Add transition for smooth animation */
+  }
+  
+  .sidebar:hover h5 {
+    opacity: 1; /* Show the text when sidebar is hovered */
+  }
+  
